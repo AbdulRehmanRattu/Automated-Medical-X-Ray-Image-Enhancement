@@ -119,4 +119,6 @@ This project demonstrates the use of conventional image processing techniques to
 
 ## License
 
-This project is licensed under the LGPL License - see the [LICENSE](http://www.gnu.org/licenses/lgpl.html) file for details.
+This project is licensed under the MIT License
+
+If you face any problems while running the code email me at rattu786.ar@gmail.com
