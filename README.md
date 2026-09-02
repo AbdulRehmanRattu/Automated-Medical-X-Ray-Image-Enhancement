@@ -1,5 +1,20 @@
 # Automated Medical X-Ray Image Enhancement and Diagnostic Quality Pipeline
 
+<div align="center">
+
+[<img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License">](https://opensource.org/licenses/Apache-2.0)
+<img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB.svg?logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Vision-PyTorch%20%7C%20OpenCV-EE4C2C.svg?logo=pytorch&logoColor=white" alt="Vision">
+<img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg" alt="Status">
+
+**Enterprise-grade, high-performance implementation built and maintained by Abdul Rehman Rattu.**
+
+[Overview](#overview) • [Key Features](#key-features) • [Installation & Usage](#quickstart--usage) • [Author & Maintainer](#author--maintainer)
+
+</div>
+
+---
+
 ## Overview
 
 Medical radiograph acquisition often suffers from sensory noise, dynamic range compression, geometric warping, and occlusions. These image degradations significantly impair downstream automated diagnostic tools and deep learning classifiers.
@@ -7,7 +22,6 @@ Medical radiograph acquisition often suffers from sensory noise, dynamic range c
 This project implements an automated computer vision enhancement pipeline engineered to restore degraded Chest X-Ray radiographs. By combining adaptive contrast correction, multi-scale frequency filtering, non-local denoising, and morphological inpainting, the pipeline elevates diagnostic image quality, increasing the classification accuracy of a pre-trained pneumonia diagnostic model from a baseline of 55.0% to over 95.0%.
 
 ---
-
 
 ---
 
@@ -146,3 +160,15 @@ Run quantitative SNR and sharpness benchmark against reference images:
 ```bash
 python evaluation.py --original xray_images/raw --enhanced xray_images/enhanced
 ```
+
+---
+
+## Author & Maintainer
+
+**Abdul Rehman Rattu**  
+*Forward Deployed AI Engineer & Solutions Architect*  
+*Founder & Technical Lead, Rapide Technologies*
+
+* **Email**: [rattu786.ar@gmail.com](mailto:rattu786.ar@gmail.com)
+* **LinkedIn**: [linkedin.com/in/abdul-rehman-rattu-395bba237](https://www.linkedin.com/in/abdul-rehman-rattu-395bba237)
+* **GitHub**: [github.com/AbdulRehmanRattu](https://github.com/AbdulRehmanRattu)
